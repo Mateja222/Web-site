@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(../images/pozadina.jpg);
+    background-size:cover;
+}
+.pre-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4EEC27;
+	color:#fff;
+	height:60px;
+	padding-top:23px;
+	border:groove;
+	border-color:#4EEC27;
+    text-decoration: none;
+    padding: 8px;
+ 
+
+}
+.column1{
+    
+    margin-left: 12px;
+}
+.column2{
+    text-align:center;
+    padding-bottom: 13px;
+
+}
+
+.column2 p{
+    
+    font-size: 49px;
+	margin-top: 6px;
+	
+
+
+}
+
+.column3{
+    text-align:right;
+    padding-bottom: 22px;
+    font-size: 19px;
+	margin-top: -2px;
+
+    
+
+}
+
+.column3 li {
+    display: inline-block;
+	margin-right: 12px;
+    text-align:right;
+}
+
+.column1 .column2 .column3 {
+    width: auto; 
+    
+}
+
+.pre-header img {
+	
+	width: 45px;
+	height: auto;
+    padding-top: 11px;  
+}
+.main-header {
+	background-color: HSL(246, 3%, 70%);
+
+	color:white;
+	border:groove;
+    text-align: center;
+    padding: 5px;
+}
+.main-header  li{
+	display: inline-block;
+	margin-left: 75px;
+	text-decoration: none;
+    text-transform:uppercase;
+    padding: 2px;
+	border:groove;
+
+}
+.main-header li a{
+    margin:7px;
+	text-decoration: none;
+	color:white;
+	transition: color 0.8s ease;
+	
+}
+.main-header  li a:hover {
+    color: #3e3f3f;
+	
+}	
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #4EEC27;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-style: groove;
+    border-color: #4EEC27;
+}
+
+#google-map {
+    text-align: left;
+}
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+#contact-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#contact-info {
+    flex: 1; 
+}
+
+#google-map {
+    flex: 1;
+    margin-left: 20px;
+    border-style:groove ;
+    background-color: #4EEC27;
+}
+
+#google-map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+#contact-info p {
+    margin: 0;
+}
+
+#contact-form{
+    background-color: #4EEC27;
+    border-style: groove;
+}
+form{
+    background-color: HSL(246, 3%, 70%);
+    border-style: groove;
+}

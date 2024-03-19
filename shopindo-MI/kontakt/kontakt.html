@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shopindoo</title>
+</head>
+<body>
+    <div class="pre-header">
+        <div class="column1">
+            <img src="../images/logo.jpg" alt="logo">
+        </div>
+        <div class="column2">  
+            <p>Shoppindoo</p>
+        </div>
+        <div class="column3">
+            
+            <li><a href="../korpa/korpa.html" ><img src="../images/korpa.png" alt="korpa" ></a></li>
+        </div>
+
+    </div>
+    
+    <div class="main-header">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Početna</a></li>
+                <li><a href="../prodavnica/prodavnica.html">Prodavnica</a></li>
+                <li><a href="../galerija/galerija.html">Galerija</a></li>
+                <li><a href="../kontakt/kontakt.html">Kontakt</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <h2>Kontakt Informacije</h2>
+        <section id="contact-section">
+            <div id="contact-info">
+                <h3>Informacije o Firmi</h3>
+                <p>Ime firme: Shopindoo</p>
+                <p>Adresa: Nikole Pasica 28 18000 Nis</p>
+                <p>Kontakt: 0640907605</p>
+                <p>e-mail: Mateja.ivic.22@singimail.rs</p>
+                
+            </div>
+
+            <div id="google-map">
+                <h3>Nasa lokacija.</h3>
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d300.2616601929955!2d21.896146838090186!3d43.31864771708991!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b0b16f291241%3A0x5d4587d453cb8630!2z0KPQvdC40LLQtdGA0LfQuNGC0LXRgiDQodC40L3Qs9C40LTRg9C90YPQvA!5e0!3m2!1ssr!2srs!4v1705233153555!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section id="contact-form">
+            <h3>Obrazac za Slanje Poruka mailom</h3>
+            <form id="contactForm" action="https://formspree.io/f/xwkgpozk" method="POST">
+                <fieldset>
+                    <legend>Unesite Vaše Podatke</legend>
+                    <label for="ime">Ime:</label>
+                    <input type="text" id="ime" name="ime" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Vaša Poruka</legend>
+                    <label for="poruka">Poruka:</label>
+                    <textarea id="poruka" name="poruka" rows="4" required></textarea>
+                </fieldset>
+
+                <button type="submit">Pošalji Poruku</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023-2023 companija shopindoo d.o.o </p>
+    </footer>
+</body>
+</html>
+

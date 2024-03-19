@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <link href="../libs/lightbox2-2.11.4/dist/css/lightbox.css" rel="stylesheet" \>
+    <script src="../libs/lightbox2-2.11.4/dist/js/lightbox-plus-jquery.js"></script>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shoppindoo</title>
+</head>
+
+<body>
+
+    
+    <div class="pre-header">
+        <div class="column1">
+            <img src="../images/logo.jpg" alt="logo">
+        </div>
+        <div class="column2">  
+            <p>Shopindoo</p>
+        </div>
+        <div class="column3">
+            
+            <li><a href="../korpa/korpa.html" ><img src="../images/korpa.png" alt="korpa" ></a></li>
+        </div>
+
+    </div>
+   
+    <div class="main-header">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Početna</a></li>
+                <li><a href="../prodavnica/prodavnica.html">Prodavnica</a></li>
+                <li><a href="../galerija/galerija.html">Galerija</a></li>
+                <li><a href="../kontakt/kontakt.html">Kontakt</a></li>      
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h2>Dobrodosli u nasu prodavnicu</h2>
+        <div class="thumbnails-container">
+            <div class="gallery-item">
+                <a href="../images/slusalice2.jpg" data-lightbox="gallery" data-title="Slusalice 1">
+                    <img src="thumbnails/slusalice2.jpg" alt="Slusalice 1">
+                </a>
+                <button class="add-to-cart" onclick="addToCart(1, 'Slusalice 1', 20.00)">20.00$ Dodaj u korpu</button>
+            </div>
+            <div class="gallery-item">
+                <a href="../images/slusalice1.jpg" data-lightbox="gallery" data-title="Slusalice 2">
+                    <img src="thumbnails/slusalice1.jpg" alt="Slusalice 2">
+                </a>
+                <button class="add-to-cart" onclick="addToCart(2, 'Slusalice 2', 25.00)">25.00$ Dodaj u korpu</button>
+            </div>
+            <div class="gallery-item">
+                <a href="../images/komplet.jpg" data-lightbox="gallery" data-title="Komplet">
+                    <img src="thumbnails/komplet.jpg" alt="Komplet">
+                </a>
+                <button class="add-to-cart" onclick="addToCart(3, 'Komplet', 200.00)">200.00$ Dodaj u korpu</button>
+            </div>
+        </div>
+        </main>
+
+    
+    <footer>
+        <p>&copy; 2023-2023 companija shopindoo d.o.o </p>
+    </footer>
+
+</body>
+
+</html>
+
